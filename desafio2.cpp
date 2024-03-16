@@ -20,7 +20,7 @@ int main(int argc, char* argv[]){
             currentTerm++;
         }
 
-        std::cout << fibo[index] << std::endl;
+        //std::cout << fibo[index] << std::endl;
 
         if(fibo[index] == number){
             std::cout << "O valor informado pertence a Fibonacci!\n";
